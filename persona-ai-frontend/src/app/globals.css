@@ -5,6 +5,17 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-primary-50: #EEEDFE;
+  --color-primary-100: #CECBF6;
+  --color-primary-400: #7F77DD;
+  --color-primary-600: #534AB7;
+  --color-primary-900: #26215C;
+
+  --color-surface: #F8F8FF;
+  --color-accent: #7F77DD;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
